@@ -1,8 +1,69 @@
+/* TABLE
+-----------------------------------------------------------*/
+table, th, td {
+    border: 1px solid black;
+}
 
-/* BACK GROUND IMG
+th, td {
+    border-style: inset;
+}
+
+table {
+    margin: 3rem;
+    width: 90%;
+}
+
+/* MAIN
 -----------------------------------------------------------*/
 
+h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+h2 {
+    font-weight: normal;
+    font-size: x-large;
+}
+h3 {
+    font-size: larger;
+    padding-top: 1rem;
+}
 
+/* IMG GALLERY
+-----------------------------------------------------------*/
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+    max-height: 400px;
+
+}
+
+/* MAP
+-----------------------------------------------------------*/
+
+iframe {
+padding: 2rem
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+.row h1, h2, p {
+    padding: 50px;
+
+
+}
+.column {
+    flex: 50%;
+}
 
 /* HEADER
 -----------------------------------------------------------*/
