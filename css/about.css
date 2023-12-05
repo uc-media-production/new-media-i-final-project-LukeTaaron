@@ -32,6 +32,7 @@ html {
 
 .container {
     padding: 0 16px;
+    justify-content: end;
 }
 
 .container::after, .row::after {
